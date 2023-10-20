@@ -1,0 +1,36 @@
+ <div class="column is-one-fifth">
+    <div class="column is-3">
+      <aside id="sidebar" class="menu is-fullheight" >
+        <a href="{{ $.Site.BaseURL }}">
+          <img src="{{ $.Site.Params.logo | absURL }}" class="image is-1by1 p-5">
+        </a>
+        <ul class="menu-list ml-1 p-4">
+          {{ range .Site.Menus.main }}
+          <li> 
+            <a class="p-3 is-uppercase has-text-black" href="{{ .URL }}">{{ .Name}}</a>
+          </li>
+          {{ end }}
+        </ul>
+        <div class="social-icons mt-3">
+          <a href="https://www.facebook.com/votre_compte_facebook" class="mr-2">
+            <span class="icon has-text-light">
+              <i class="fab fa-facebook fa-2x"></i>
+            </span>
+          </a>
+          <a href="https://www.instagram.com/votre_compte_instagram">
+            <span class="icon has-text-light">
+            <i class="fab fa-instagram fa-2x"></i>
+          </span>
+          </a>
+        </div>
+
+        <a href="#" class="navbar-bottom-icon">
+          <span class="icon has-text-dark">
+            <i class="fas fa-arrow-up"></i>
+          </span>
+        </a>
+      </aside>
+  </div>
+</div>
+    
+    
