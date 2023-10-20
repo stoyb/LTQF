@@ -1,0 +1,40 @@
+
+{{ define "styles"}}
+{{ $customCSS := resources.Get "css/presse.css" | resources.ToCSS }}
+<link rel="stylesheet" href="{{ $customCSS.RelPermalink }}">
+{{ end }}
+
+
+{{ define "content" }}
+<main>
+<nav>
+    {{ partial "navbar.html" . }}
+</nav>
+<section class="section">
+    <div class="container-presse">
+        <h1>{{ .Title }}</h1>
+        <p class="subtitles mb-2">{{ .Params.subtitle }} </p>
+        {{ range .Pages }}
+        <div class="fond" style="background-image: url('{{ .Params.picture|relURL }}');">
+          <div class="columns">
+            <div class="column">
+              <div class="gauche">
+                <p class="mb-3 is-uppercase">{{ .Params.titre }}</p>
+                <span> {{ .Date.Year }} </span>
+              </div>
+            </div>
+            <div class="column is-three-fifths ml-5">
+              <div class="droite mt-1">
+                <p class="mb-1">Critiques</p>
+                <span>{{ .Params.revue }} - </span>
+                <a href="{{ .Params.fichier | absURL}}" target="_blank">Télécharger la revue</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+    </div>
+</section>
+</main>
+
+{{ end }}
