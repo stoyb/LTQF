@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Actions culturelles on LTQF</title>
+    <link>https://git.legaragenumerique.fr/GARAGENUM/LTQF/actions_culturelles/</link>
+    <description>Recent content in Actions culturelles on LTQF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Mar 2023 15:21:27 +0100</lastBuildDate><atom:link href="https://git.legaragenumerique.fr/GARAGENUM/LTQF/actions_culturelles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dispositif ULIS</title>
+      <link>https://git.legaragenumerique.fr/GARAGENUM/LTQF/actions_culturelles/action1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://git.legaragenumerique.fr/GARAGENUM/LTQF/actions_culturelles/action1/</guid>
+      <description>Actuellement, en partenariat avec le Théâtre National de La Coline, Kahena Saïghi mène un projet théâtre « inclusion inversée » avec le dispositif ULIS et une classe de 5 ème classique du collège Jean-Pierre Timbaud à Bobigny, sur les thématiques liées à l’adolescence (Les corps qui changent, le rejet et l’acceptation de l’autre…)</description>
+    </item>
+    
+    <item>
+      <title>Hôpital psychiatrique / maison d&#39;arrêt</title>
+      <link>https://git.legaragenumerique.fr/GARAGENUM/LTQF/actions_culturelles/action3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://git.legaragenumerique.fr/GARAGENUM/LTQF/actions_culturelles/action3/</guid>
+      <description>Grâce au CDN de Besançon, durant trois années consécutives, Kahena Saïghi et Pierre-Yves Chapalain ont mené un travail axé sur l’improvisation et l’expression corporelle, auprès de patients de l’hôpital psychiatrique de Novilar. Avec les Scènes du Jura, ils ont animé de nombreux ateliers en maison des jeunes, dans des établissements scolaires et à la Maison d’arrêt de Lons Le Saunier.</description>
+    </item>
+    
+    <item>
+      <title>Maison de quartier</title>
+      <link>https://git.legaragenumerique.fr/GARAGENUM/LTQF/actions_culturelles/action2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://git.legaragenumerique.fr/GARAGENUM/LTQF/actions_culturelles/action2/</guid>
+      <description>Pierre-Yves Chapalain en lien avec le CDN de Caen, a animé des ateliers théâtre auprès d’allocataires de La CAF à la maison de quartier de la Pierre Heuzé durant plus de 3 ans. Avec ces différents groupes des spectacles ont vu le jour et les participants ont pu faire l’expérience de représentations publiques au théâtre des Cordes à Caen.</description>
+    </item>
+    
+  </channel>
+</rss>

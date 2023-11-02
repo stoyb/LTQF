@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>La compagnie on LTQF</title>
+    <link>https://git.legaragenumerique.fr/GARAGENUM/LTQF/compagnie/</link>
+    <description>Recent content in La compagnie on LTQF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Mar 2023 15:21:27 +0100</lastBuildDate><atom:link href="https://git.legaragenumerique.fr/GARAGENUM/LTQF/compagnie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kahena Saïghi</title>
+      <link>https://git.legaragenumerique.fr/GARAGENUM/LTQF/compagnie/02-kahena/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://git.legaragenumerique.fr/GARAGENUM/LTQF/compagnie/02-kahena/</guid>
+      <description>Elle se forme au théâtre auprès de Véronique Nordey, et crée, avec cette dernière, la compagnie Balachova, pour jouer en 1999, Iphigénie, ou le pêché des dieux de Michel Azama au Théâtre Gérard Philipe, où elle est également assistante à la mise en scène. La même année, elle débute au cinéma dans Total western d&amp;rsquo;Eric Rochant, puis travaillera entre autres avec José Pinhéro, Gabriel Aghion, Jacques Renard ou Didier Bourdon.</description>
+    </item>
+    
+    <item>
+      <title>Pierre-Yves Chapalain</title>
+      <link>https://git.legaragenumerique.fr/GARAGENUM/LTQF/compagnie/01-pierre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://git.legaragenumerique.fr/GARAGENUM/LTQF/compagnie/01-pierre/</guid>
+      <description>&amp;ldquo;Il débute comme acteur au théâtre de la main d’Or et joue dans les premiers spectacles de Joël Pommerat jusqu’à la création de Pinocchio en 2007. Acteur complice aussi de metteur.e.s en scène comme Pierre Meunier, Philippe Carbonnaux, Bérangère Ventuso, Nathalie Fillon ou Sylvain Maurice. Il crée la compagnie Le Temps qu’il faut et commence à mettre en scène ses propres pièces à partir de 2008 avec La Lettre au théâtre de la Tempête, puis Absinthe au théâtre de la Bastille.</description>
+    </item>
+    
+  </channel>
+</rss>
