@@ -1,0 +1,92 @@
+{{ define "styles"}}
+{{ $customCSS := resources.Get "css/contact.css" | resources.ToCSS }}
+<link rel="stylesheet" href="{{ $customCSS.RelPermalink }}">
+{{ end }}
+
+
+{{ define "content" }}
+
+<section class="section">
+    <div class="container">
+        <h1>{{ .Title }}</h1>
+        <div class="contact columns mt-2">
+            <div class="adresse column is-one-third is-flex is-align-items-center has-text-centered">
+                <div class="container">
+                    <i class="fa-solid fa-location-dot fa-3x mb-5"></i>
+                    <div class="mb-5">
+                        <h2 class="title is-3 has-text-white">Adresse Postale:</h2>
+                        <p class="subtitle is-5 has-text-white">{{ .Params.adressePostale }}</p>
+                    </div>
+                    <div>
+                        <h2 class="title is-3 has-text-white">Siège social:</h2>
+                        <p class="subtitle is-5 has-text-white">{{ .Params.adresseSiege }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mail column is-flex is-align-items-center has-text-centered ml-3">
+              <div class="container">
+                <i class="fa-solid fa-envelope fa-3x mb-5"></i>
+                <h2 class="title is-3 has-text-white">Adresse Email:</h2>
+                <p class="subtitle is-5 has-text-white">{{ .Params.email }}</p>
+                <a class="mt-3 button is" href="mailto:{{ .Params.email }}">Cliquez-ici</a>
+              </div>
+            </div>
+            <div class="phone column is-flex is-align-items-center has-text-centered ml-3">
+                <div class="container">
+                    <i class="fa-solid fa-phone fa-3x mb-5"></i>
+                    <h2 class="title is-3 has-text-white">Numéro de téléphone:</h2>
+                    <p class="subtitle is-5 has-text-white">{{ .Params.telephone1 }}</p>
+                    <p class="subtitle is-5 has-text-white">{{ .Params.telephone2 }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="p-5">
+    <div class="container contactform p-5">
+        <h2 class="mb-3">Formulaire de contact</h2>
+        <div class="columns">
+            <div class="column is-half">
+                <div class="field">
+                    <label class="label">Nom</label>
+                    <div class="control">
+                      <input class="input" type="text" placeholder="Entrez votre nom">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control">
+                        <input class="input" type="email" placeholder="Entrez votre email" value="">
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="field">
+                    <label class="label">Prénom</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="Entrez votre prénom">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Téléphone</label>
+                    <div class="control">
+                      <input class="input" type="tel" placeholder="Entrez votre numéro de téléphone">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="column is-full">
+                <div class="field">
+                    <label class="label">Message</label>
+                    <textarea class="textarea" placeholder="Bonjour..." rows="10"></textarea>
+                </div>
+            </div>
+        </div>
+        <button class="button has-text-white is-medium is-responsive has-background-success">Envoyer</button>
+
+    </div>
+</section>
+{{ end }}

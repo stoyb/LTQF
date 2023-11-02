@@ -1,0 +1,32 @@
+
+{{ define "content" }}
+
+<section class="section has-background-warning-light">
+        <h1 class="title has-text-centered mb-6">{{ .Title }}</h1>
+</section>
+<section class="section has-background-primary-dark">
+    <div class="container has-text-black">
+        <h2 class="subtitle">{{ .Params.Subtitle }}</h2>
+        <p>{{ .Content }}</p>
+    </div>
+</section>
+<section class="section has-background-black">
+    {{ range .Pages }}
+    <div class="columns">
+        <div class="column  is-flex is-half has-background-black">
+            <div class="box has-background-warning-light  has-text-centered pt-6">
+                <h2 class="subtitle mb-6">{{ .Title }}</h2>
+                <div class="block">{{ .Content }}</div>
+            </div>
+        </div>
+        <div class="column is-half has-background-black">
+            <div class="box has-background-warning-light">
+                {{ $img := printf "%s/%s/%s"  .Section .File.BaseFileName "principal.jpg" }}
+                <img src="{{ (resources.Get $img).Permalink }}">
+            </div>
+        </div>  
+    </div>
+    {{ end}}
+</section>
+
+{{ end }}

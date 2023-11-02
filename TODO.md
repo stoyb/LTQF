@@ -1,0 +1,51 @@
+- spectacles:
+  - Oree du Bois:
+    - [x] image principale
+    - [x] images complémentaires
+    - [] crédits
+    - [x] description
+  - Dossier K:
+    - [x] image principale
+    - [x] images complémentaires
+    - [x] crédits
+    - [x] description
+  - Où sont les ogres:
+    - [x] image principale
+    - [x] images complémentaires
+    - [] crédits
+    - [] description
+  - Outrages:
+    - [x] image principale
+    - [x] images complémentaires
+    - [x] crédits
+    - [x] description
+  - Brume du soir:
+    - [x] image principale
+    - [x] images complémentaires
+    - [] crédits
+    - [] description
+  - La fiancée de Barbe Bleue:
+    - [x] image principale
+    - [x] images complémentaires
+    - [] crédits
+    - [] description
+  - Absinthe:
+    - [x] image principale
+    - [x] images complémentaires
+    - [x] crédits
+    - [] description
+  - La lettre:
+    - [x] image principale
+    - [x] images complémentaires
+    - [x] crédits
+    - [] description
+  - Dans les plis de sa langue:
+    - [] image principale
+    - [] images complémentaires
+    - [x] crédits
+    - [x] description
+  - Derrière tes paupières:
+    - [x] image principale
+    - [x] images complémentaires
+    - [] crédits
+    - [x] description

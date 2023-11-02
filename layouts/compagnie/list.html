@@ -1,0 +1,37 @@
+{{ define "styles"}}
+{{ $customCSS := resources.Get "css/compagnie.css" | resources.ToCSS }}
+<link rel="stylesheet" href="{{ $customCSS.RelPermalink }}">
+{{ end }}
+
+{{ define "content" }}
+
+<div class="has-background-warning-light has-text-centered p-6">
+    <section class="section mb-0 pb-0">
+            <h1>{{ .Title }}</h1>
+            <p>{{ .Content}}</p>
+    </section>
+    <section class="section mb-0 pb-0">
+            <h2 class="is-size-3 mb-5">{{ .Params.subtitle}}</h2>
+            <div class="columns is-justify-content-center ">
+                {{ range .Pages }}
+                    <div class="column is-4">
+                        <figure class="image is-square">
+                            <img src="{{ (resources.Get (printf "%s/%s.jpg" .Section .File.BaseFileName)).Permalink }}" alt="Artiste">
+                        </figure>
+                        <p class="is-size-5"> {{ .Title }}</p>
+                    </div>
+                {{ end }}
+            </div>
+    </section>
+    <section class="section">
+        {{ range .Pages }}
+        <div class="py-5">
+            <h2 class="is-size-4">{{ .Title }}</h2>
+            <p class="is-size-6">{{ .Content }}</p>
+        </div>
+        {{ end }}
+    </section>
+</div>
+
+
+{{ end }}

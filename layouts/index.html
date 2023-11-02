@@ -1,0 +1,36 @@
+
+{{ define "content" }}
+    <section class="section--fixed">
+        <div class="carousel">
+            <div class="carousel-container">
+                {{ range $index, $image := .Params.images }}
+                <div class="carousel-item{{ if eq $index 0 }} active{{ end }}">
+                    <img src='{{ $image }}' alt="Image {{ $index }}">
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>     
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+    const container = document.querySelector('.carousel-container');
+    const items = document.querySelectorAll('.carousel-item');
+    const interval = 4000; 
+    let currentIndex = 0;
+    
+    function updateCarousel() {
+        const itemWidth = items[0].offsetWidth;
+        container.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+    }
+    
+    function nextSlide() {
+        items[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex + 1) % items.length;
+        items[currentIndex].classList.add('active');
+        updateCarousel();
+    }
+    setInterval(nextSlide, interval); 
+</script>
+{{ end }}

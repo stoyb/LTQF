@@ -1,0 +1,43 @@
+
+.contact {
+    /* border: 5px solid green; */
+    margin-left: 0.1rem;
+}
+
+.columns .adresse{
+    /* border: 5px solid red; */
+    background-color: black;
+    color: white;
+    height: 400px;
+}
+
+
+.columns .mail div{
+    margin-bottom: 6%;
+}
+
+.columns .phone div{
+    margin-bottom: 10%;
+}
+
+
+.columns .mail{
+    /* border: 5px solid blue; */
+    background-color: black;
+    color: white;
+    height: 400px;
+
+}
+.columns .phone{
+    background-color: black;
+    color: white;
+    height: 400px;
+
+}
+
+.contactform h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}

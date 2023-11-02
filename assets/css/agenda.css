@@ -1,0 +1,24 @@
+.section img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+.section h2, .section h3 {
+    font-family: 'Advent Pro', sans-serif;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p, li, button {
+    font-family: 'Lato', sans-serif;
+}
+
+.section li {
+    list-style-type: disc;
+}
+
+.column {
+    border-radius: 20px;
+}

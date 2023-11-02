@@ -1,0 +1,29 @@
+{{ define "styles"}}
+    {{ $customCSS := resources.Get "css/spectacles.css" | resources.ToCSS }}
+    <link rel="stylesheet" href="{{ $customCSS.RelPermalink }}">
+{{ end }}
+
+
+{{ define "content" }}
+
+            <h1 class="title has-text-centered mt-6 mb-6">{{ .Title }}</h1>
+            <section class="section">
+                <div class="columns is-multiline">
+                    {{ range .Pages}}
+
+                    <div class="column is-one-quarter">
+                        <figure class="image">
+                            {{ $img := printf "%s/%s/%s"  .Section .File.BaseFileName "presse.jpg" }}
+                            <a href="{{ .Permalink|relURL }}">
+                                <img src="{{ (resources.Get $img).Permalink }}">
+                                <div class="overlay">
+                                    <span class="has-text-black is-size-3">{{ .Title }}</span>
+                                </div>
+                            </a>
+                        </figure>
+                    </div>
+                    {{ end }}
+                </div>
+            </section>
+
+{{ end }}

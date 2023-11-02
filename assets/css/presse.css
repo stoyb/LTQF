@@ -1,0 +1,8 @@
+.border{
+  border: 2px solid black;
+}
+
+.fond{
+    background-size: cover;
+    background-position: 0% 22%; /* Ajuste la position horizontale (0%) et verticale (22%) de l'image de fond */
+  }

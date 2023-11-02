@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+{{- partial "head.html" . -}}
+<!-- Bloc pour les styles CSS -->
+
+    {{ $customCSS := resources.Get "css/style.css" | resources.ToCSS }}
+    <link rel="stylesheet" href="{{ $customCSS.RelPermalink }}">
+    {{- block "styles" . }}{{- end }}
+</head>
+<body>
+
+    {{- block "main" . }}
+    <main class="columns m-0">
+
+            <!-- Barre de navigation  -->
+            {{-  partial "navbar.html" . -}}
+
+            <!-- Contenu de la page -->
+            <div class="column is-four-fifths m-0 p-0">
+              {{- block "content" . }}{{- end }}
+            </div>
+    </main>
+    {{- end }}
+    <!-- Scripts JS -->
+    {{- partial "script.html" . -}}
+    {{- block "scripts" . }}{{- end }}
+</body>
+</html>
+

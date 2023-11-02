@@ -1,0 +1,11 @@
+---
+title: "La compagnie"
+date: 2023-03-17T15:21:27+01:00
+draft: false
+subtitle: "Les fondateurs"
+---
+
+Pierre-Yves Chapalain est auteur, acteur et metteur en scène. Depuis 2008, il met en scène ses propres textes (édités aux solitaires intempestifs) au sein de la compagnie le temps qu’il faut.Les histoires que raconte Pierre-Yves Chapalain se passent souvent au sein de la famille, comme un reflet troublant de notre société. Elles se situent à un bout du monde, quelque part au bord d’un océan, ou à la lisière d’une forêt, comme un reflet troublant de nos dedans. Dans un temps indéfini, suspendu entre passé, présent et futur, et à la fois très ancrées dans notre époque contemporaine, les histoires racontées se nourrissent aussi des grands mythes. Les personnages sont souvent au bord, à la marge d’une société qu’ils refusent ou qui les refuse. Ils sont en quête de quelque chose : d’identité, de liberté, de mémoire, d’amour, de revanche…Ils cherchent à comprendre le/ leur monde, veulent déterrer les secrets qui les empêchent d’avancer quitte à réveiller les morts, les confronter, bousculer les vivants pour s’extirper d’une vie qui étouffe. Comment être au monde sans le/se détruire ? Comment éviter d’être les pantins de cette folie destructrice qui est à l’œuvre en ces temps troublés ? Comment réussir à préserver ce qui fait la beauté du monde et des êtres ? Aucune réponse n’est donnée, seules des pistes de réflexions s’ouvrent en même temps que les personnages se déploient dans la fable. Oui, car les pièces de Pierre-Yves sont souvent construites à la manière des contes populaires où, à partir d’une situation concrète et quotidienne, les personnages glissent peu à peu dans un univers à la frontière du rêve et du réel, où se côtoient le fantastique, l’ordinaire, l’onirisme, l’étrange et le burlesque…
+
+Le travail au plateau se fait en plusieurs étapes, plusieurs allers retours entre la table et la scène, nourris des réflexions et des questionnements des acteurs. Le texte est donc toujours en mouvement pour être au plus près d’eux. 
+L’esthétique des spectacles nait souvent d’une idée, d’une image faite de signes, de suggestions, pour laisser libre l’imaginaire. Puis la scénographie se précise, grâce au son et à la lumière pour continuer d’écrire, ensemble, et créer une atmosphère particulière.

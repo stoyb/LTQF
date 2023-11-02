@@ -1,0 +1,40 @@
+{{ $bg := cond .IsHome "has-background-black has-text-white" "has-background-success" }}
+{{ $home := cond .IsHome "home" "not-home" }}
+<div class="column is-one-fifth {{$bg}}">
+      <aside id="sidebar" class="menu is-fullheight {{$bg}} {{$home}}" >
+        <a href="{{ $.Site.BaseURL }}">
+          {{ if .IsHome }}
+          <img src="{{ $.Site.Params.logoHome | absURL }}" class="image is-1by1 p-5">
+          {{ else }}
+          <img src="{{ $.Site.Params.logo | absURL }}" class="image is-1by1 p-5">
+          {{ end }}
+        </a>
+        <ul class="menu-list m-0 p-0">
+          {{ range .Site.Menus.main }}
+          <li> 
+            <a class="p-3 is-uppercase" href="{{ .URL }}">{{ .Name}}</a>
+          </li>
+          {{ end }}
+        </ul>
+        <div class="social-icons mt-3">
+          <a href="https://www.facebook.com/votre_compte_facebook" class="mr-2">
+            <span class="icon">
+              <i class="fab fa-facebook fa-2x"></i>
+            </span>
+          </a>
+          <a href="https://www.instagram.com/votre_compte_instagram">
+            <span class="icon">
+            <i class="fab fa-instagram fa-2x"></i>
+          </span>
+          </a>
+        </div>
+
+        <a href="#" class="navbar-bottom-icon">
+          <span class="icon">
+            <i class="fas fa-arrow-up"></i>
+          </span>
+        </a>
+      </aside>
+</div>
+    
+    

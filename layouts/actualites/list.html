@@ -1,0 +1,54 @@
+
+{{ define "content" }}
+
+<section class="section has-background-warning-light">
+    <div class="container">
+        <h1 class="title has-text-centered mb-6">{{ .Title }}</h1>
+    </div>
+</section>
+<section class="section has-background-warning-light">
+    <div class="container">
+        <h2 class="title has-text-centered mb-6">À la Une</h2>
+    </div>
+</section>
+<section class="section has-background-warning-light">
+    {{ $pagePath := print .Section "/" .Params.une }}
+    {{ $featuredPage := .Site.GetPage $pagePath }}
+    {{ with $featuredPage }}
+    <div class="columns  is-flex is-justify-content-space-between has-background-black">
+        <div class="column is-5 has-background-danger-light">
+            <img src="{{ .Params.Picture |relURL }}">
+        </div>
+        <div class="column is-5 has-background-success-light">
+            <h3>{{ .Title }} </h3>
+            <div class="block">
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</section>
+<section class="section has-background-warning-light">
+    <div class="container">
+        <h2 class="title has-text-centered mb-6">Nos articles</h2>
+    </div>
+</section>
+<section class="section has-background-warning-light">
+    <div class="columns is-multiline">
+        {{ range .Pages }}
+        {{ if ne .RelPermalink $featuredPage.RelPermalink }}
+        <div class="column is-one-third">
+            <div class="card">
+                <div class="card-header">
+                    {{ .Title}}
+                </div>
+                <div class="card-content">
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
+</section>
+{{ end }}
